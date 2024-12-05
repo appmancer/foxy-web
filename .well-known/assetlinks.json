@@ -1,0 +1,23 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.getfoxy.foxy",
+      "sha256_cert_fingerprints": [
+        "3A:3B:97:C0:B5:D8:B2:70:AA:8B:21:B0:6B:E5:7E:56:D4:2E:EB:88:0B:A4:76:6E:F0:5D:43:12:DB:91:38:98"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://www.getfoxy.app"
+    }
+  }
+]
